@@ -8,6 +8,6 @@ def line(array_deli)
     response = "The line is currently: "
     array_deli.each_with_index do |element, index|
       response += "#{index+1}. #{element} "
-    end  
+    end
   end
 end
