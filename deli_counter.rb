@@ -12,3 +12,7 @@ def line(array_deli)
     puts response
   end
 end
+
+def take_a_number (deli_array, name)
+    deli_array.push(name)
+end
