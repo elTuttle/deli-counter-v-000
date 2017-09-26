@@ -22,7 +22,7 @@ def now_serving (deli_array)
   if deli_array.size == 0
     puts "The line is currently empty."
   else
-    puts "now serving #{deli_array[0]}."
+    puts "Currently serving #{deli_array[0]}."
     deli_array.shift
   end
 end
