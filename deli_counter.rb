@@ -19,7 +19,7 @@ def take_a_number (deli_array, name)
 end
 
 def now_serving (deli_array)
-  if deli_array == 0
+  if deli_array.size == 0
     puts "The line is currently empty."
   else
     puts "now serving #{deli_array[0]}."
